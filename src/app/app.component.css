@@ -1,0 +1,176 @@
+body
+{
+  background-image: url(../assets/pagebg/icefir.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+    
+  }
+  
+  .topnav h1 {
+    float: left;
+    font-family: Matura MT Script Capitals;
+    color: red;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 800px;
+      }
+     
+  .topnav h6 {
+        float: left;
+        color: #ff0000;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-weight: 200;
+      
+  }
+.logo_name
+{
+  color: rgb(176, 189, 189);
+}
+.back
+{
+    background-image: url(../assets/pagebg/bg3.jpg);
+    background-attachment: fixed;
+}
+.navo
+{
+    background:none;
+    height: 80px;
+}
+.right
+{
+    display:flex;
+    margin-left: 300px;
+    color: red;
+}
+.center
+{
+    margin-left: 100px;
+}
+.house
+{
+  margin-bottom: 8px;
+  margin-left: 20px;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+.sidebar
+{
+position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 590px;
+  width: 250px;
+ background:none;
+  padding: 20px 20px;
+  margin-top: 210px;
+}
+.sidebar .logo_content .logo
+{
+  color: #fff;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+.logo_content .logo
+{
+font-size: 30px;
+margin-right: 3px;
+}
+.logo_content .logo .logo_name
+{
+  font-size: 20px;
+  font-weight: 400;
+}
+.sidebar #button
+{
+  position: absolute;
+  color: #fff;
+  left: 90%;
+  top: 18px;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  transform: translateX(-50%);
+}
+.sidebar ul
+{
+margin-top: 20px;
+}
+.sidebar ul li
+{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin: 0 5px;
+  list-style: none;
+  line-height: 50px;  
+}
+
+
+.sidebar ul li a 
+{
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  transition: all 0.4s ease;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.sidebar ul li a:hover
+{
+  color: #11101d;
+  background: #fff;
+
+}
+.sidebar ul li a i{
+  height: 50px;
+  min-width: 50px;
+  border-radius: 12px;
+  line-height: 50px;
+}
+
+.ticker {
+  display: flex;
+  flex-wrap: wrap;
+  
+  height: 50px;
+}
+.tip{
+  text-align: center;
+  font-style: italic;
+}
+p
+{
+  font-style: italic;
+  color: azure;
+}
+.news 
+{
+  width: 76%;  
+}
+
+.tip {
+  width: 250px;
+  text-align: center;
+  background: #c81c1c;
+  position: relative
+  
+}
+

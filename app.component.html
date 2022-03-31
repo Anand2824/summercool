@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>summercool</title>
+</head>
+<body>
+  <div class = "title">
+  <div class="topnav">
+    <h1>SummerCool </h1>
+    <h6><i class='bx bx-map'></i>Hyderabad,Telangana</h6>
+  </div>
+
+  <div class="navo">
+<nav class="navbar navbar-expand-sm">
+  <!-- Links -->
+<div class="navbar-brand" >
+    <img src="./assets/pagebg/fire.jpg" alt="logo" style="width:100px;height:80px;"> 
+</div>
+
+  <ul class="navbar-nav">
+    <div class="house">
+    <li class="nav-item">
+      <a style="font-size: 18px; color: red;" class="nav-link" routerLink="/home"><i class='bx bxs-home-smile'></i>Home</a>
+    </li>
+    </div>
+  </ul>
+  <div class="center">
+    <form class="form-inline" action="/action_page.php">
+      <div id="bar">
+      <input style="width: 400px; margin-bottom: 8px;" class="form-control mr-lg" type="text" placeholder="Waiting dude...">
+      </div>
+      <button style="margin-bottom: 8px;height: 35px;width: 70px;" class="btn btn-success" type="submit">Search</button>
+    </form>
+  </div>
+<div class="right">
+    <ul>
+    <li class="nav navbar-nav navbar-right">
+      <a style="font-size:18px;color:red;"class="nav-link" routerLink="/LogIn"><i class='bx bx-log-in-circle'></i>LogIn</a>
+    </li>
+    </ul>
+      <ul>
+      <li class="nav navbar-nav navbar-right">
+      <a style="font-size: 18px;color: red;" class="nav-link" routerLink="/SignIn">><i class="fa-duotone fa-arrow-right-to-arc"></i>SignIn</a>
+    </li>
+    </ul>
+    <ul>
+      <li class="nav navbar-nav navbar-right">
+      <a style="font-size:18px;color:red;" class="nav-link" routerLink="/help"><i class='bx bxs-help-circle'></i>Help</a>
+    </li>
+    </ul>
+  </div>
+    
+</nav>    
+  </div>
+  <div class="container">
+    <div class="ticker">
+        <div class="tip">
+            <h5 style="margin-top: 15px;">Special Offers :</h5>
+        </div>
+        <div class="news">
+            <marquee class="news-content">
+                <p style="margin-top: 20px;">Welcome dude! ! !...who will register first time they will get 30% discount on actual price
+                   and also get free delivery around 5km distance only on Soft drinks, Snacks and Icecreams 
+                   till 12:00AM 31st Dec 2022 years..Come on..Hurry up!!! </p>
+            </marquee>
+        </div>
+    </div>
+</div>
+  <div class="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        <i style="color:rgb(176, 189, 189);" class='bx bxs-hot'></i>
+        <div class="logo_name">SummerCool</div>
+        </div>
+        <i class='bx bx-menu-alt-left'id="button"></i>
+      </div>
+      <ul class="nav_list">
+          <li>
+            <a href="#">
+              <i class='bx bx-user-voice'></i>
+            <span class="links_name">Account</span>
+            </a>
+          
+          </li>
+          <li>
+            <a href="#"><i class='bx bx-grid-alt'></i>
+            <span class="links_name">Order</span>
+            </a>
+          
+          </li>
+          <li>
+            <a href="#">
+            <i class='bx bxs-package'></i>
+            <span class="links_name">Delivery</span>
+            </a>
+    
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bxs-offer'></i>
+            <span class="links_name">Offers</span>
+            </a>
+    
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-chat'></i>
+              <span class="links_name">Notifications</span>
+            </a>
+      
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-plug'></i>
+            <span class="links_name">Setting</span>
+            </a>
+          
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bxs-report'></i>
+            <span class="links_name">Report</span>
+            </a>
+      
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bxs-log-out-circle'></i>
+            <span class="links_name">Logout</span>
+            </a>
+          
+          </li>
+      </ul>
+  </div>
+  <router-outlet></router-outlet>
+
+</div>
+
+</body>
+<!--<app-log-in></app-log-in>
+<app-sign-up></app-sign-up> -->
+
+</html>

@@ -1,0 +1,43 @@
+
+body
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../../assets/pagebg/icefir.jpg);
+}
+.card
+{
+    border:none;
+    width:500px;
+    padding: 40px;
+    position: absolute;
+    margin-left: 150px;
+    background: none;
+    margin-top: 40px;
+    color: aqua;
+    
+}
+footer
+{
+  margin-top: 130px;
+  background-color: black;
+}
+ 
+  
+  .row::after {
+    clear: both;
+    display: table;
+    
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column 
+  {
+    flex: 5%;
+    
+  }
+  
+  
